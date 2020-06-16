@@ -1,4 +1,4 @@
-package com.koreait.kjs.repeat;
+package com.koreait.kjs.level2;
 
 public class For2 {
 	public static void main(String[] args) {

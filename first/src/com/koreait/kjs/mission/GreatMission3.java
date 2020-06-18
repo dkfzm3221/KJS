@@ -19,7 +19,8 @@ public class GreatMission3 {
 		int totalSum = 0; //전체 합계용
 		int totalCnt = 0; //전체평균 계산하기 위한 카운트(과목별 아이템 수 모두 더 함)
 		for (int i = 0; i < sumArr.length; i++) {
-			System.out.printf("%s합계 : %d, 평균: %.1f\n", clsArr[i], sumArr[i], (float) sumArr[i] / arr[i].length);
+			System.out.printf("%s합계 : %d, 평균: %.1f\n", clsArr[i], sumArr[i], 
+							 (float) sumArr[i] / arr[i].length);
 			totalSum += sumArr[i];
 			totalCnt += arr[i].length;
 		}

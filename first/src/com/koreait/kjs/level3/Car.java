@@ -15,14 +15,19 @@ public class Car {//extends Objcet 자동 입력
 		//지역변수명이 전역변수명과 같을때  this. 붙여야함
 	
 	public Car(String name, String color, int cc) {
-		super();
-		this.name = name;
+		//super위에는 int = a; 이런식으로 쓸수 없음
+		super(); //부모의 주소값
+		this.name = name; //나 자신의 주소값
 		this.color = color;
 		this.cc = cc;
 	}
 	public void introduceMyCar() {
 		System.out.printf("%s의 컬러는 %s이고 %dcc이다.\n", name, color, cc);
 	}
-
+	public Car(String name) {
+		this(name, "검정색", 3000);
+	}
+	
 }
+
 //super; 내 부모 this; 

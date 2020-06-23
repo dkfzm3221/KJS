@@ -18,7 +18,8 @@ public class BoardTest {
 }
 
 //            접근지시어                     \\
-// private 같은 class 안에서만 사용가능
-// default private + 같은 package에서만 상속가능
-// protected default + 상속관계에서만 상속가능
-// public
+// private : 같은 class 안에서만 사용가능
+// default : private + 같은 package에서만 상속가능
+// protected : default + 상속관계에서만 상속가능
+// public :
+// 생성자 값이 없을때

@@ -15,7 +15,7 @@ public class MyListTest { // class 앞에 public을 붙이고 싶으면 class �
 		list.add(15);
 //		int delVal = list.remove(2);
 //		System.out.println(delVal);
-		// int delVal = list.remove(); // 지우는 값을 리턴(20)
+//		int delVal = list.remove(); // 지우는 값을 리턴(20)
 //		MyArrays.print(list); // [10, 1200, 15] 출력되도록
 		String str = MyArrays.toString(list);
 		System.out.println("str : " + str);
@@ -24,6 +24,7 @@ public class MyListTest { // class 앞에 public을 붙이고 싶으면 class �
 		int val = list.get(1); // 15
 		val = list.get(0); // 10
 
+		
 	}
 
 }

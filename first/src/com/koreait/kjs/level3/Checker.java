@@ -8,7 +8,7 @@ public class Checker {
 
 	public static boolean check(int gameCnt, Baseball b, MyBall mb) {
 
-		int S = 0;
+		int S = 0;//gg
 		int B = 0;
 		
 

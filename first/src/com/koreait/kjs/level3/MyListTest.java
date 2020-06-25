@@ -69,7 +69,7 @@ class MyList {
 
 	int get(int num) {
 		return arr[num];
-	}
+	} 
 
 	void add(int idx, int num) {
 		int[] temp = new int[arr.length + 1];

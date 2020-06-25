@@ -2,7 +2,7 @@ package com.koreait.kjs.mission;
 
 import java.util.Scanner;
 
-public class GreatMission_1 {
+public class GreatMission_t {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

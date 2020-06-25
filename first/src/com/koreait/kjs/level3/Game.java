@@ -11,7 +11,7 @@ public class Game {
 		
 		do {
 			myBall.setNumbers();
-		}
+		}while(Checker.check(gameCnt, ball, myBall));
 		
 		//숫자1:3
 	}
